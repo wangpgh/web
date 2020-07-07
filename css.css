@@ -1,0 +1,40 @@
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+ul {
+    background-color: aquamarine;
+    color: #dac618;
+}
+
+/* 类选择器 */
+.one {
+    background-color: blueviolet;
+}
+
+/* ID选择器 */
+#tit {
+    color: rgb(183, 143, 236);
+}
+
+/* 伪类选择器 */
+a:hover {
+    font-weight: 700;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+html {
+    background-color: #00539F;
+}

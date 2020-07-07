@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试页面</title>
+    
+    <script src="./main.js" defer></script>
+    <!-- defer  延迟加载  等dom渲染完执行js -->
+
+    <!-- 外联样式表 -->
+    <link rel="stylesheet" href="./css.css">
+
+    <style>
+        p:nth-child(1) {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <span>我的html页面</span>
+    <p>我的猫咪脾气<strong>爆</strong></p>
+    <h3>测试图片</h3>
+    <img src="./layer_bg.png" alt="测试图片">
+    <!-- 文件路径
+    ./ 表 同级
+    ../ 表 上一级 -->
+    <!-- alt是图像的描述内容，用于当图像不被用户看见时显示 -->
+
+    <!-- 无序列表 -->
+    <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海的</p>
+    <ul>
+        <li>技术人员</li>
+        <li>思考者</li>
+        <li>建造者</li>
+    </ul>
+    <p>我们致力于....</p>
+
+    <!-- 有序列表 -->
+    <p id="tit">这是一个有序列表</p>
+    <ol>
+        <li>98</li>
+        <li>95</li>
+        <li>94</li>
+    </ol>
+
+    <p class="one">超链接</p>
+    <a href="https://www.mozilla.org/zh-CN/about/manifesto/">Mozilla 宣言</a>
+    <!-- 空连接 href="#" -->
+    <br>
+    <a href="#" class="lj">这是一个空链接</a>
+
+    <div>
+        <h4>我是三级标题</h4>
+        <p>我是段落</p>
+    </div>
+
+    <button>切换用户</button>
+</body>
+
+</html>
+
+<!-- <script>
+    let h3 = document.querySelector('h3')
+    console.log(h3);
+    h3.textContent = 'Hello World'
+</script> -->
+<!-- <script src="./main.js"></script> -->
